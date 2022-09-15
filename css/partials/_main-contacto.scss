@@ -1,0 +1,260 @@
+main{
+     padding: 0;
+     margin: 0;
+     .titulos{
+          background-image: url("../assets/fondo.png");
+          padding: 100px;
+          border-bottom: 2px solid $color1;
+
+          .titulos__contacto{
+               color: $color3;
+               text-align: center;
+               font-family: $fontdraco;
+               font-size: 40px;
+               margin-left: 550px;
+               margin-bottom: 15px;
+               background-color: transparent;
+
+          }
+          .titulos__contacto-subtitulo{
+               color: $color3;
+               text-align: center;
+               font-family: $fontrotunda;
+               font-size: 30px;
+               margin-left: 550px;
+               background-color: transparent;
+          }
+     }     
+          .banner1{
+               padding: 50px;
+               border-bottom: 2px solid $color1;
+               align-items: center;
+               background-color: $color2;
+
+               .banner__titulo{
+                    color: $color1;
+                    text-align: center;
+                    font-family: $fontrotundab;
+                    font-style: bold;
+                    font-size: 30px;
+               }
+
+               .banner1__mail{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: light;
+                    display: flex;
+                    color: $color1;
+                    align-items: center;
+                    justify-content: center;
+               }
+               .banner1__telefono{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: light;
+                    display: flex;
+                    color: $color1;
+                    align-items: center;
+                    justify-content: center;
+               }     
+          }
+          .banner2{
+               padding: 50px;
+               border-bottom: 2px solid $color1;
+               background-color: $color2;
+               align-items: center;
+
+               .banner2__titulo{
+                    color: $color1;
+                    text-align: center;
+                    font-family: $fontrotundab;
+                    font-style: bold;
+                    font-size: 30px;
+               }
+               .banner2__mail{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: light;
+                    display: flex;
+                    color: $color1;
+                    align-items: center;
+                    justify-content: center;
+               }
+               .banner2__telefono{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: light;
+                    display: flex;
+                    color: $color1;
+                    align-items: center;
+                    justify-content: center;
+               }
+          }
+          .formulario{
+               display: flex;
+                padding: 50px;
+                background-image: url("../assets/backgoundd.jpg");
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                border-bottom: 2px solid $color1;
+                align-items: center;
+               
+                .titulos-formulario{
+                    background-color: transparent;
+                    color: $color1;
+                    font-family: 'Montserrat', sans-serif;
+                    padding: 20px;
+
+                    .titulos-formulario__epigrafe{
+                         font-size: 20px;
+                         margin-bottom: 10px;
+                         background-color: transparent;
+                    }
+                    .titulos-formulario__titulo{
+                         font-size: 50px;
+                         margin-bottom: 10px;
+                         color: $color3;
+                         background-color: transparent;
+                    }
+                    .titulos-formulario__subtitulo{
+                         font-size: 20px;
+                         background-color: transparent;
+                    }
+                
+               }
+               .formu{
+                    width: 400px;
+                    background-color: transparent;
+                    padding: 30px;
+                    margin: auto;
+                    font-family: rotunda;
+                    color: $color3;
+
+                    .formu__casilla{
+                         font-family: 'Montserrat', sans-serif;
+                         width: 100%;
+                         padding: 10px;
+                         border-radius: 4px;
+                         margin-bottom: 16px;
+                         border: 1px solid $color1;
+                         outline: none;
+                              :focus{
+                                   border: 3px solid #8400cd;
+                              }
+                    }
+                    .formu__boton{
+                         width: 100%;
+                         border: none;
+                         padding: 12px;
+                         background-color: $color1;
+                         font-family: 'Montserrat', sans-serif;
+                         color: $color3;
+                         border-radius: 4px;
+                         font-size: 16px;
+                         cursor: pointer;
+                         transition: .3s, .3s; 
+                              .formu__boton:hover{
+                                   text-decoration: underline;
+                                   transform: scale(1.1);
+                              }
+                    }
+               }
+          }
+     
+}
+@media(max-width:1300px){
+     .titulos{
+          background-image: url("../assets/backgoundd.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          .titulos__contacto{
+               color: white;
+               text-align: center;
+               font-family: draco;
+               font-size: 40px;
+               margin-bottom: 15px;
+               background-color: transparent;
+               margin: auto;
+          }
+          .titulos__contacto-subtitulo{
+               color: white;
+               text-align: center;
+               font-family: Rotunda;
+               font-size: 30px;
+               background-color: transparent;
+               margin: auto;
+          }
+      }     
+}
+@media(max-width:925px){
+     .titulos-formulario{
+          background-color: transparent;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          padding: 20px;
+          text-align: center;
+
+          .titulos-formulario__epigrafe{
+               font-size: 20px;
+               margin-bottom: 10px;
+               background-color: transparent;
+           }
+           .titulos-formulario__titulo{
+               font-size: 50px;
+               margin-bottom: 10px;
+               color: #8400cd;
+               background-color: transparent;
+           }
+           .titulos-formulario__subtitulo{
+               font-size: 20px;
+               background-color: transparent;
+               color: white;
+               
+           }
+      
+      }  
+}
+
+@media(max-width:875px){
+     .titulos{
+          .titulos__contacto{
+               font-size: 25px;
+           }
+           .titulos__contacto-subtitulo{
+               font-size: 20px;
+           }      
+     }
+}
+@media(max-width:540px){
+     .titulos{
+          .titulos__contacto{
+               font-size: 20px;
+           }
+           .titulos__contacto-subtitulo{
+               font-size: 20px;
+           } 
+     }
+}
+@media(max-width:470px){
+     .titulos{
+          .titulos__contacto{
+               font-size: 15px;
+           }
+           .titulos__contacto-subtitulo{
+               font-size: 10px;
+           }   
+     }
+     .titulos-formulario{
+          .titulos-formulario__titulo{
+               font-size: 25px;
+           }
+           .titulos-formulario__epigrafe{
+               font-size: 15px;
+           }
+           .titulos-formulario__subtitulo{
+               font-size:15px ;
+           }     
+     }
+     .formu{
+          width: 280px;
+          padding: 10px;
+      }
+}

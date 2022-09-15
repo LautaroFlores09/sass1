@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tienda</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">    
+                <!-- Logo + Menu-->
+                    <a href="index.html"><img class="header__logo-img" src="../assets/Logo.png" alt="Logo" width="100" height="100"/></a>
+                    <h4 class="header__logo-nombre">PerifericWar</h4>
+            </div>
+            <nav class="menu">
+                <ul class="header__menu"> 
+                    <li class="header__menu-item"><a href="../index.html">INICIO</a></li>
+                    <li class="header__menu-item active"><a href="./tienda.html">TIENDA</a></li>
+                    <li class="header__menu-item"><a href="./nosotros.html">NOSOTROS</a></li>
+                    <li class="header__menu-item " ><a href="./contacto.html">CONTACTO</a></li>
+                    <li class="header__menu-item "><a href="./novedades.html">NOVEDADES</a></li>
+                </ul>
+            </nav>
+            <span class="header__boton"><img src="../assets/boton hamburguesa.png" alt="boton amburguesa" width="90" height="70" ></span>
+        </header> 
+
+        <main class="tienda">
+            <div>
+                <section>
+                    <section class="categorias">
+                        <!-- Menu tienda desplegables -->
+                        <select class="desplegablenone">
+                            <option disabled selected>Categorias</option>
+                            <option>Equipos y Notebooks</option>
+                            <option>Consolas de Video Juegos</option>
+                            <option>Procesadores y coolers cpu</option>
+                            <option>Mothers y combos</option>
+                            <option>Memorias Ram</option>
+                            <option>Almacenamiento</option>
+                            <option>Placas de Video y otras</option>
+                            <option>Gabinetes</option>
+                            <option>Monitores y Televisores</option>
+                            <option>Teclados y Mouses</option>
+                            <option>Audios, parlantes, auriculares y mic</option>
+                            <option>Joysticks y perifericos para simuladores</option>
+                        </select>
+                        <ul>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Equipos y Notebooks</option>
+                                    <option>Notebooks</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Consolas de Video Juegos</option>
+                                    <option>Consolas</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Procesadores y coolers cpu</option>
+                                    <option>Procesadores AMD</option>
+                                    <option>Procesadores INTEL</option>
+                                    <option>Coolers CPU</option>
+                                    <option>Soluciones termicas</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Mothers y combos</option>
+                                    <option>Mothers AMD</option>
+                                    <option>Mothers INTEL</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Memorias Ram</option>
+                                    <option>Memorias</option>
+                                    <option>Memorias Sodimm</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Almacenamiento</option>
+                                    <option>Discos Rigidos Externos</option>
+                                    <option>Discos Rigidos Internos</option>
+                                    <option>Discos Solidos SSD</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Placas de Video y otras</option>
+                                    <option>Placas de video GeForce</option>
+                                    <option>Placas de Video Radeon AMD</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Gabinetes</option>
+                                    <option>Fuentes de alimentacion</option>
+                                    <option>Cooler Fan</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Monitores y Televisores</option>
+                                    <option>Monitores y pantallas</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Teclados y Mouses</option>
+                                    <option>Mouses</option>
+                                    <option>Mouse Pads</option>
+                                    <option>Teclados</option>
+                                    <option>Combos Teclados,Mouses y Otros</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Audios, parlantes, auriculares y mic</option>
+                                    <option>Auriculares</option>
+                                    <option>Parlantes</option>
+                                    <option>Microfonos</option>
+                                    <option>Accesorios para Auriculare</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="desplegable">
+                                    <option disabled selected>Joysticks y perifericos para simuladores</option>
+                                    <option>Joysticks, gamepads para PC y otros</option>
+                                    <option>Volantes-Simuladoes de manejo</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </section>
+            </div> 
+            <div>      
+                <section>
+                    <!-- Imagenes + Desplegable  -->
+                    <div class="culo">
+                        <div class="card">   
+                            <img src="../assets/Tienda/mouse tienda.jpg" alt="Mouse tienda 1" id="Mouse tienda 1" width="170" height="159" />
+                                <select class="card__desplegable" for="Mouse tienda 1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                                    <a class="card__buy" href="">COMPRAR</a>
+                                    <h2 class="card__nombres" >REDRAGON DAGGER2 M715RGB</h2>
+                                 
+                        </div> 
+                        <div class="card" >
+                            <img src="../assets/Tienda/teclado tienda 1.jpg" alt="Teclado tienda 1" id="Teclado tienda 1" width="170" height="159" />
+                                <select class="card__desplegable" for="Teclado tienda 1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a> 
+                                <h2 class="card__nombres" >HYPERX ALLOY ORIGINS</h2>
+                        </div> 
+                        <div class="card" >
+                                <img src="../assets/Tienda/monitor tienda 1.jpg" alt="Monitor tienda 1" id="Monitor tienda 1" width="170" height="159" />
+                                    <select class="card__desplegable" for="Monitor tienda 1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option> 
+                                    </select>
+                                    <a class="card__buy" href="">COMPRAR</a>
+                                    <h2 class="card__nombres" >SAMSUNG ODYSSEY G3</h2>
+                        </div>
+                        <div class="card" > 
+                                <img src="../assets/Tienda/auricular tienda 1.jpg" alt="Auricular tienda 1" id="Auricular tienda 1" width="170" height="159" />
+                                    <select class="card__desplegable" for="Auricular tienda 1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option> 
+                                    </select>
+                                    <a class="card__buy" href="">COMPRAR</a>
+                                    <h2 class="card__nombres" >REDRAGON ZEUS X H510 RGB</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/gabinete tienda 1.jpg" alt="Gabinete tienda 1" id="Gabinete tienda 1" width="170" height="159" />
+                                <select class="card__desplegable" for="Gabinete tienda 1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option> 
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" >SHENLONG GT-701 RGB</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/microfono tienda 1.jpg" alt="Microfono tienda 1" id="Microfono tienda 1" width="170" height="159" />
+                                <select class="card__desplegable" for="Microfono tienda 1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option> 
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" >HYPERX QUADCAST S</h2>
+                        </div> 
+                        <div class="card" >
+                            <img src="../assets/Tienda/gabinete tienda 2.jpg" alt="Gabinete tienda 2" id="Gabinete tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Gabinete tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option> 
+                                </select> 
+                                <a class="card__buy" href="">COMPRAR</a>  
+                                <h2 class="card__nombres" >SHENLONG GT-701</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/auricular tienda 2.jpg" alt="Auricular tienda 2" id="Auricular tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Auricular tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option> 
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>  
+                                <h2 class="card__nombres" >HYPERX CLOUD II</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/teclado tienda 2.jpg" alt="Teclado tienda 2" id="Teclado tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Teclado tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>   
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" >REDRAGON KUMARA</h2>
+                        </div>
+                        <div class="card" >
+                            <img src="../assets/Tienda/mouse tienda 2.jpg" alt="Mouse tienda 2" id="Mouse tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Mouse tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>    
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" > RAZER DEATHADDER V2</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/monitor tienda 2.jpg" alt="Monitor tienda 2" id="Monitor tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Monitor tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option> 
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" >SAMSUNG LED 24"</h2>
+                        </div>
+                        <div class="card" > 
+                            <img src="../assets/Tienda/microfono tienda 2.jpg" alt="Microfono tienda 2" id="Microfono tienda 2" width="170" height="159" />
+                                <select class="card__desplegable" for="Microfono tienda 2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>    
+                                </select>
+                                <a class="card__buy" href="">COMPRAR</a>
+                                <h2 class="card__nombres" > SOUL CONDENSER LIVE XMIC 400 RGB</h2>
+                        </div>         
+                    </div>        
+
+
+                </section>
+            </div>
+        </main>
+        <!-- Inicio de footer -->
+        <footer class="footer">
+            <div class="footer__footerperifericwar">
+                <h2 class="footer__footerperifericwar-titulo">PERIFERICWAR</h2>
+                <ul class="footer__footerperifericwar-lista">
+                    <li class="footer__footerperifericwar-lista-item"><a href="../index.html">Inicio</a></li>
+                    <li class="footer__footerperifericwar-lista-item"><a href="../pages/tienda.html">Tienda</a></li>
+                </ul>
+                <h3 class="footer__footerperifericwar-copy">Copyright © PerifericWar.com.ar 2022</h3>
+            </div>
+
+            <div class="footer__cys">
+                    <h2 class="footer__cys-titulo">CONTACTO Y SOPORTE</h2>
+                <div class="footer__cys-telefono">
+                        <img class="footer__cys-telefono-item" src="../assets/telefono.png" alt="Telefono"  height="30" />
+                            <h3 class="footer__cys-telefono-numero">1133556677</h3>
+                </div>
+                <div class="footer__cys-contacto">
+                    <a class="footer__cys-contacto-item" href="../pages/contacto.html"><img  src="../assets/sobrecito.png" alt="Sobre" height="30" id="pages"/></a>
+                        <h3 class="footer__cys-contacto-titulo">Contacto</h3>
+                </div>
+                <div class="footer__cys-nosotros">
+                    <a class="footer__cys-nosotros-item" href="../pages/nosotros.html"> <img class="cys__nosotros" src="../assets/nosotros.png" alt="Nosotros"  height="30"></a>
+                        <h3 class="footer__cys-nosotros-titulo">Nosotros</h3>
+                </div>
+            </div>
+            
+            <div class="footer__seguinos">
+                <h2 class="footer__seguinos-titulo">SEGUINOS EN :</h2>
+                    <img class="footer__seguinos-item" src="../assets/Redes sociales.png" alt="Redes sociales"  height="50">
+            </div>
+        </footer> 
+        
+    </body>
+</html>

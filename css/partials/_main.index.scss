@@ -1,0 +1,45 @@
+.video__inframe{
+     width: 100%;
+     height: 800px;
+     border-bottom: 2px solid $color1;
+}
+.imagenesinicio{
+     background-color:$color2;
+
+     .imgs{
+          height: 290px;
+          width: 300px;
+          transition: 0.3s;
+          border-bottom: 2px solid $color1;
+          &:hover{
+               transform: scale(1.1);
+               box-shadow: $color1 0px 20px 30px -10px;
+          }
+     }
+
+}
+
+@media(max-width:1820px){
+     .video__inframe{
+          display: flex;
+          justify-content: center;
+          padding: 100px;
+          background-color: black;
+      }
+}
+@media(max-width:925px){
+     .video__inframe{
+          display: flex;
+          justify-content: center;
+          padding: auto;
+          background-color: black;
+      }
+}
+@media(max-width:470px){
+     .video__inframe{
+          width: 100%;
+          height: 100%;
+          border-bottom: 2px solid #8400cd;
+        
+      }
+}

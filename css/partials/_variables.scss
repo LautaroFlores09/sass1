@@ -1,0 +1,32 @@
+@font-face {
+     font-family:Rotunda ;
+     src: url("../assets/ttf/Fontspring-DEMO-4a-rotunda-regular.otf");
+     font-style: normal;
+ }
+ $fontrotunda:Rotunda;
+ 
+ @font-face {
+     font-family: Rotunda1;
+     src: url("../assets/ttf/Fontspring-DEMO-6a-rotunda-bold.otf");
+     font-style: bold;
+ }
+ $fontrotundab:Rotunda1;
+ @font-face {
+     font-family: Draco;
+     src: url("../assets/ttf/Draco.otf");
+     font-style: normal;
+ }
+ $fontdraco:Draco;
+ 
+ $color1:#8400cd;
+ 
+ $color2:black;
+ 
+ $color3:white;
+
+ul{
+    list-style-type: none;
+}
+select{
+    border: none;
+}

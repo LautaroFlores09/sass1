@@ -1,0 +1,89 @@
+
+          .tienda{
+               display: flex;
+               justify-content: center;
+               position: relative;
+               background-color: $color2;
+               padding-top: 70px;
+
+               .categorias{
+                    position: absolute;
+                    left: 0;
+
+                    .desplegable{
+                         font-family: $fontrotunda;
+                         font-size: 15px;
+                         color: $color3;
+                         background-color: #262427fd;
+                         padding: 20px; 
+                         width: 350px;
+                         left: 0;
+
+                         :hover{
+                              text-decoration: underline;
+                              box-shadow: $color1 1.95px 0 0;
+                         }
+                    }
+                    .desplegablenone{
+                         display: none;
+                    }
+
+               }
+               .card{
+                    display: flex;
+                    width: 700px;
+                    height: 200px;
+                    background-color: $color3;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 25px 50px -12px $color1;
+                    position: relative;
+                    margin-bottom: 50px;
+                    margin-left: 200px;
+
+
+                    .card__desplegable{
+                         width: 50px;
+                         height: 35px;
+                         font-family: $fontrotunda;
+                         font-size: 15px;
+                         color: $color3;
+                         background-color: #262427fd;
+                         padding: 5px;
+                         border-radius: 10px;
+                         position: absolute;
+                         bottom: 20px;
+                         left: 210px;
+                    }
+                         .card__buy{
+                              background-color: #262427fd;
+                              display: flex;
+                              align-items: center;
+                              width: 220px;
+                              height: 15px;
+                              padding: 30px;
+                              text-align: center;
+                              color: $color3;
+                              border-radius: 10px;
+                              cursor: pointer;
+                              font-family: $fontdraco;
+                              font-weight: bold;
+                              font-size: 13px;
+                              position: absolute;
+                              bottom: 20px;
+                              left: 400px;
+                              transition: .3s, .3s;
+
+                              :hover {
+                                   transform: scale(1.1);
+                                   color: $color1;
+                              }
+                         }
+                         .card__nombres{
+                              color: $color2;
+                              font-family: $fontrotunda;
+                              margin: 20px 0 30px 30px;
+                         }
+                }
+          }
+     

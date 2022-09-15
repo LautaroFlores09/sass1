@@ -1,0 +1,145 @@
+.imgytxt{
+     display: flex;
+     padding: 60px;
+     background-image:url("../assets/background3.png") ;
+     background-position: center center;
+     width: 100%;
+     height: 358px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-bottom: 2px solid $color1; 
+     
+     .imgytxt__contenido{
+          display: flex;
+          color: $color3;
+
+          h1{
+               font-size: 24px;
+               font-family: $fontdraco;
+               text-decoration: underline $color1;
+          }
+          h2{
+               font-size: 30px;
+               font-family: $fontrotunda;
+               margin-bottom: 20px;
+               margin-left: 30px;
+          }
+          p{
+               font-family: $fontrotunda;
+               font-size: 25px;
+               margin-left: 30px;
+          }
+     }
+}
+.videonosotros{
+     display: flex;
+     justify-content: center;
+     padding: 100px;
+     background-color: $color2;
+     
+     .videonosotros-vid{
+          width: 1138px;
+          height: 642px;
+     }
+}
+.titulodelbanner{
+     text-align: center;
+     color: $color3;
+     font-family: draco;
+     text-decoration: underline solid 3px #8400cd;
+     font-size: 18px;
+     padding: 80px 0 20px 0;
+     background-color: $color2;
+}
+.bannernosotros{
+     width: 100%;
+     height: 358px;
+     color: $color3;
+     background-image: url("../assets/background4.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     font-family: $fontrotunda;
+     border-bottom: 2px solid $color1;
+     
+     div{
+          width: 270px;
+          height: 300px;
+          display: grid;
+          text-align: center;
+          justify-content: center;
+          transition: transform 1s;
+          
+          .bannernosotros__icons{
+               width: 78px;
+               height: 78px;
+               margin-left: 90px;
+               margin-bottom: 30px;
+          }
+
+          .bannernosotros__titulo{
+               margin-bottom: 10px;
+               text-decoration: underline solid 2px $color1;
+          }
+     }
+     div:hover{
+          transform: scale(1.15);
+         background-color: rgba(0, 0, 0, 0.555);
+         border-radius: 30px;
+     } 
+     
+}
+
+@media(max-width:1300px){
+     .imgytxt{
+          .imgytxt__contenido{
+               p{
+                    font-size:18px ;   
+               }
+          }     
+     }
+}
+@media(max-width:925px){
+     .imgytxt{
+          .imgytxt__contenido{
+               h1{
+                    font-size: 18px;
+               }
+               h2{
+                    font-size: 25px;
+               }
+          }
+     }
+}
+@media(max-width:875px){
+     .imgytxt{
+          .imgytxt__contenido{
+               flex-direction: column;
+               h1{
+                    margin-bottom: 20px;
+               }
+               h2{
+                    margin-bottom: 6px;
+               }
+          }
+     }
+}
+@media(max-width:600px){
+     .imgytxt{
+          padding: 20px;
+          .imgytxt__contenido{
+             h1{
+               font-size: 15px;
+             }
+             h2{
+               font-size: 15px;
+             }
+             p{
+               font-size: 15px;
+             }  
+          } 
+     }
+}
